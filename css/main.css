@@ -1,0 +1,166 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.bold{
+	font-weight: bold;
+}
+
+h1, h2, h3, h4{
+	font-family: "Raleway",sans-serif;
+	font-weight: 900;	
+	color: #616161;
+	text-transform: uppercase;
+}
+
+h5, p{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+}
+
+@keyframes scale{
+	from{
+		border: 4px #1;
+	}
+	to{
+		transform: scaleY(1);
+	}
+}
+
+.custom-head-left{
+	border-left: 4px solid;
+	color: #616161;
+	border-color: #18FFFF;
+	padding-left: 16px;
+	/*animation-name: scale;
+	animation-duration: .5s;
+	animation-iteration-count: infinite;
+	animation-delay: .02s;
+	animation-timing-function: ease-in;*/
+}
+
+.custom-head-right{
+	border-right: 4px solid;
+	color: #616161;
+	border-color: #18FFFF;
+	padding-right: 16px;
+	/*animation-name: scale;
+	animation-duration: .5s;
+	animation-iteration-count: infinite;
+	animation-delay: .02s;
+	animation-timing-function: ease-in;*/
+}
+
+button{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 500;
+	background: none;
+	border-radius: 100px;
+	border: 2px #18FFFF solid;
+	padding: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+button:hover{
+	background-color: #18FFFF;
+	color: #fff;
+	transition-duration: .2s;
+}
+
+nav a img.nav-logo{
+	height: 54px;
+	margin-right: 16px;
+}
+
+nav a.brand-logo{
+	font-family: 'Raleway', sans-serif;
+}
+
+nav a p.nav-title{
+	font-family: "Raleway",sans-serif;
+	font-weight: 500;	
+	color: #18FFFF;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li a span{
+	font-family: 'Raleway', sans-serif;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+nav ul li a:hover{
+	background: none;
+	color: #18FFFF;
+}
+
+nav ul li a span:hover{
+	color: #18FFFF;
+}
+
+nav ul li a span.active{
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 2px #18FFFF solid;
+	border-radius: 50px;
+	color: #18FFFF;
+}
+
+#home{
+	width: 100%;
+	height: 100vh;
+	background-image: url("../assets/landing_img.jpg");
+	background-size: cover;	
+}
+
+.home-div{
+	height: 100vh;
+	background: linear-gradient(rgba(52, 148, 230, 0.5), rgba(24, 255, 255, 0.5));
+}
+
+.material-icons{
+	color: #18FFFF;
+}
+
+.head{
+	
+}
+
+.sub{
+	color: #9E9E9E;
+}
+
+.about-sub{
+	max-width: 1000px;
+}
+
+#stages{
+	background-image: url("../assets/stages_bg.png");
+}
+
+.stages-divider{
+	width: 100%;
+	height: 20vh;
+	background-color: rgba(24, 255, 255, 0.5); 
+	background-image: url("../assets/stages_divider.jpg");
+	background-size: cover;
+	background-position: center;
+
+}
+
+.div-mask{
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(rgba(52, 148, 230, 0.5), rgba(24, 255, 255, 0.5));
+}
+
+.stages-sub{
+	margin-right: 10%;
+	margin-left: 10%;
+	margin-top: 10px;
+}
