@@ -1,3 +1,5 @@
+/* Global */
+
 body{
 	margin: 0;
 	padding: 0;
@@ -62,6 +64,7 @@ button{
 	padding-right: 20px;
 	padding-left: 20px;
 	color: #18FFFF;
+	margin-bottom: 10px;
 }
 
 button:hover{
@@ -69,6 +72,12 @@ button:hover{
 	color: #fff;
 	transition-duration: .2s;
 }
+
+.card{
+	/*padding: 5px;*/
+}
+
+/* Navbar */
 
 nav a img.nav-logo{
 	height: 54px;
@@ -112,6 +121,8 @@ nav ul li a span.active{
 	color: #18FFFF;
 }
 
+/* Home */
+
 #home{
 	width: 100%;
 	height: 100vh;
@@ -124,6 +135,8 @@ nav ul li a span.active{
 	background: linear-gradient(rgba(52, 148, 230, 0.5), rgba(24, 255, 255, 0.5));
 }
 
+/* Short Desc Card */
+
 #short-desc{
 	height: 220px;
 	margin-top: -110px;
@@ -132,6 +145,8 @@ nav ul li a span.active{
 .material-icons{
 	color: #18FFFF;
 }
+
+/* About */
 
 .head{
 	
@@ -144,6 +159,8 @@ nav ul li a span.active{
 .about-sub{
 	max-width: 1000px;
 }
+
+/* Stages */
 
 #stages{
 	background-image: url("../assets/stages_bg.png");
@@ -171,13 +188,36 @@ nav ul li a span.active{
 	margin-top: 10px;
 }
 
+/* Speakers */
+
+#speakers{
+	height: 70vh;
+}
+
+/* Venue */
+
 #venue{
 	height: 70vh;
-	background-color: #1e252b; 
+	background-color: #1c262f; 
 	background-image: url('../assets/venue.jpg'); 
 	background-position: right;
 	background-repeat: no-repeat;
+	max-height: 800px;
 }
+
+
+#buy-tickets{
+	height: 70vh;
+}
+
+.collection{
+	border-left: none;
+	border-right: none;
+	/*border: none;*/
+}
+
+
+/* Footer */
 
 .social-icon{
 	background-color: #E0E0E0;
