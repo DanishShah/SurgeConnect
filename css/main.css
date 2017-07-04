@@ -1,3 +1,6 @@
+
+/*Global | Start*/
+
 body{
 	margin: 0;
 	padding: 0;
@@ -69,6 +72,11 @@ button:hover{
 	transition-duration: .2s;
 }
 
+/*Global | End*/
+
+
+/*Nav | start*/
+
 nav a img.nav-logo{
 	height: 54px;
 	margin-right: 16px;
@@ -110,6 +118,11 @@ nav ul li a span.active{
 	border-radius: 50px;
 	color: #18FFFF;
 }
+
+/*Nav | End*/
+
+
+/*Home Start*/
 
 #home{
 	width: 100%;
