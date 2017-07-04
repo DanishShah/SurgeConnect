@@ -65,6 +65,7 @@ button{
 	padding-right: 20px;
 	padding-left: 20px;
 	color: #18FFFF;
+	margin-bottom: 10px;
 }
 
 button:hover{
@@ -133,7 +134,7 @@ nav ul li a span:hover{
 	color: #18FFFF;
 }
 
-nav ul li a span.active{
+nav ul li a.active span{
 	padding-left: 25px;
 	padding-right: 25px;
 	padding-top: 10px;
@@ -169,6 +170,8 @@ nav ul li a span.active{
 	position: relative;
 }
 
+/* Short Desc Card */
+
 #short-desc{
 	height: 220px;
 	margin-top: -110px;
@@ -177,6 +180,8 @@ nav ul li a span.active{
 .material-icons{
 	color: #18FFFF;
 }
+
+/* About */
 
 .head{
 	
@@ -189,6 +194,8 @@ nav ul li a span.active{
 .about-sub{
 	max-width: 1000px;
 }
+
+/* Stages */
 
 #stages{
 	background-image: url("../assets/stages_bg.png");
@@ -216,13 +223,36 @@ nav ul li a span.active{
 	margin-top: 10px;
 }
 
+/* Speakers */
+
+#speakers{
+	height: 70vh;
+}
+
+/* Venue */
+
 #venue{
 	height: 70vh;
-	background-color: #1e252b; 
+	background-color: #1c262f; 
 	background-image: url('../assets/venue.jpg'); 
 	background-position: right;
 	background-repeat: no-repeat;
+	max-height: 800px;
 }
+
+
+#buy-tickets{
+	height: 70vh;
+}
+
+.collection{
+	border-left: none;
+	border-right: none;
+	/*border: none;*/
+}
+
+
+/* Footer */
 
 .social-icon{
 	background-color: #E0E0E0;

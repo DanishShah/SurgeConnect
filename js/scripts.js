@@ -1,5 +1,8 @@
 jQuery(document).ready(function($) {
 	
+	$('.carousel').carousel();
+	$('.carousel.carousel-slider').carousel({fullWidth: true});
+	
 
 	// Change state of nav bar
 	$(window).scroll(function(event) {
