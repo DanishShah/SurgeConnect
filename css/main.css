@@ -1,4 +1,5 @@
-/* Global */
+
+/*Global | Start*/
 
 body{
 	margin: 0;
@@ -73,15 +74,35 @@ button:hover{
 	transition-duration: .2s;
 }
 
-.card{
-	/*padding: 5px;*/
+/*Global | End*/
+
+
+/*Nav | start*/
+
+nav {
+	background: transparent;
+	box-shadow: none;
+	line-height: 80px;
+	height: 80px;
+	transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
 }
 
-/* Navbar */
+nav.sticky{
+	line-height: 60px;
+	height: 60px;
+	background: #fafafa;
+	box-shadow:  0 2px 6px rgba(0,21,64,.14), 0 10px 20px rgba(0,21,64,.05)
+}
+
+nav .brand-logo{
+	height: 100%;
+	margin-left: 40px;
+}
 
 nav a img.nav-logo{
-	height: 54px;
-	margin-right: 16px;
+	
+	max-height: 100%;
+	width: auto;
 }
 
 nav a.brand-logo{
@@ -90,7 +111,9 @@ nav a.brand-logo{
 
 nav a p.nav-title{
 	font-family: "Raleway",sans-serif;
-	font-weight: 500;	
+	font-weight: 500;
+	position: relative;
+	top: -25%;
 	color: #18FFFF;
 	padding: 0;
 	margin: 0;
@@ -111,7 +134,7 @@ nav ul li a span:hover{
 	color: #18FFFF;
 }
 
-nav ul li a span.active{
+nav ul li a.active span{
 	padding-left: 25px;
 	padding-right: 25px;
 	padding-top: 10px;
@@ -121,7 +144,10 @@ nav ul li a span.active{
 	color: #18FFFF;
 }
 
-/* Home */
+/*Nav | End*/
+
+
+/*Home Start*/
 
 #home{
 	width: 100%;
@@ -130,9 +156,18 @@ nav ul li a span.active{
 	background-size: cover;	
 }
 
+.home-overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: linear-gradient(rgba(52, 148, 230, 0.5), rgba(24, 255, 255, 0.5));
+}
+
 .home-div{
 	height: 100vh;
-	background: linear-gradient(rgba(52, 148, 230, 0.5), rgba(24, 255, 255, 0.5));
+	position: relative;
 }
 
 /* Short Desc Card */

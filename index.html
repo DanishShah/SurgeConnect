@@ -18,36 +18,39 @@
 </head>
 <body>
 
-	<div class="navbar-fixed">
-		<nav class="white">
-			<div class="nav-wrapper">
-				<a href="#" class="brand-logo grey-text valign-wrapper"><img class="nav-logo" src="assets/logo_black.png"> <p class="nav-title"><span class="bold grey-text text-darken-4"> SURGE</span> CONNECT</p></a>
-				<ul id="nav-mobile" class="right hide-on-med-and-down">
-					<li><a href="#" class="grey-text"><span class="active">HOME</span></a></li>
-					<li><a href="#" class="grey-text"><span>ABOUT</span></a></li>
-					<li><a href="#" class="grey-text"><span>STAGES</span></a></li>
-					<li><a href="#" class="grey-text"><span>SPEAKERS</span></a></li>
-					<li><a href="#" class="grey-text"><span>VENUE</span></a></li>
-					<li><a href="#" class="grey-text"><span class="active">SCHEDULE</span></a></li>
-					<li><a href="#" class="grey-text"><span>COMPANIES</span></a></li>
-					<li><a href="#" class="grey-text"><span>BUY TICKETS</span></a></li>
-				</ul>
+	<section id="home" class="scrollspy">
 
-				<ul id="mobile" class="side-nav">
-					<li><a href="#" class="grey-text"><span>HOME</span></a></li>
-					<li><a href="#" class="grey-text"><span>ABOUT</span></a></li>
-					<li><a href="#" class="grey-text"><span>STAGES</span></a></li>
-					<li><a href="#" class="grey-text"><span>SPEAKERS</span></a></li>
-					<li><a href="#" class="grey-text"><span>VENUE</span></a></li>
-					<li><a href="#" class="grey-text"><span>SCHEDULE</span></a></li>
-					<li><a href="#" class="grey-text"><span>COMPANIES</span></a></li>
-					<li><a href="#" class="grey-text"><span>BUY TICKETS</span></a></li>
-				</ul>
-			</div>
-		</nav>
-	</div>
+		<div class="home-overlay"></div>
 
-	<section id="home">
+		<div class="navbar-fixed">
+			<nav >
+				<div class="nav-wrapper">
+					<a href="#" class="brand-logo grey-text valign-wrapper"><img class="nav-logo" src="assets/logo_black.png"> <p class="nav-title"><span class="bold grey-text text-darken-4"> SURGE</span> CONNECT</p></a>
+					<ul id="nav-mobile" class="right hide-on-med-and-down">
+						<li><a href="#home" class="grey-text"><span class="active">HOME</span></a></li>
+						<li><a href="#about" class="grey-text"><span>ABOUT</span></a></li>
+						<li><a href="#stages" class="grey-text"><span>STAGES</span></a></li>
+						<li><a href="#speakers" class="grey-text"><span>SPEAKERS</span></a></li>
+						<li><a href="#venue" class="grey-text"><span>VENUE</span></a></li>
+						<li><a href="#" class="grey-text"><span>SCHEDULE</span></a></li>
+						<li><a href="#" class="grey-text"><span>COMPANIES</span></a></li>
+						<li><a href="#buy-tickets" class="grey-text"><span>BUY TICKETS</span></a></li>
+					</ul>
+
+					<ul id="mobile" class="side-nav">
+						<li><a href="#" class="grey-text"><span>HOME</span></a></li>
+						<li><a href="#" class="grey-text"><span>ABOUT</span></a></li>
+						<li><a href="#" class="grey-text"><span>STAGES</span></a></li>
+						<li><a href="#" class="grey-text"><span>SPEAKERS</span></a></li>
+						<li><a href="#" class="grey-text"><span>VENUE</span></a></li>
+						<li><a href="#" class="grey-text"><span>SCHEDULE</span></a></li>
+						<li><a href="#" class="grey-text"><span>COMPANIES</span></a></li>
+						<li><a href="#" class="grey-text"><span>BUY TICKETS</span></a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+
 		<div class="home-div valign-wrapper">
 			<div class="row">
 				<div class="col s12 m12 l12">
@@ -77,7 +80,7 @@
 		</div>
 	</section>
 
-	<section id="short-desc">
+	<section id="short-desc" class="scrollspy">
 		<div class="container">	
 			<div class="card row valign-wrapper hide-on-med-and-down" style="padding: 10px;">
 				<div class="col s1 m1 l1 center">
@@ -168,7 +171,7 @@
 
 	<div class="row"></div>
 
-	<section id="about">
+	<section id="about" class="scrollspy">
 		<div class="container">
 
 			<div class="row">
@@ -189,7 +192,7 @@
 
 	<div class="row"></div>
 
-	<section id="stages">
+	<section id="stages" class="scrollspy">
 
 		<div class="row stages-divider"><div class="div-mask"></div></div>
 
@@ -355,7 +358,7 @@
 		</div>
 	</section>
 
-	<section id="speakers">
+	<section id="speakers" class="scrollspy">
 		<div class="container carousel carousel-slider">
 			<div class="carousel-item col l6">
 				<div class="card center">
@@ -387,7 +390,7 @@
 		</div>
 	</section>
 
-	<section id="venue" class="valign-wrapper">
+	<section id="venue" class="valign-wrapper scrollspy">
 		<div class="container">
 			<div class="row">
 				<div class="col s12 m9 l6">
@@ -399,6 +402,7 @@
 		</div>
 	</section>
 
+<<<<<<< HEAD
 	<section id="schedule">
 		<div class="container">
 			<h2 class="custom-head-right right-align">Schedule</h2>
@@ -439,6 +443,9 @@
 	</section>
 
 	<section id="buy-tickets valign-wrapper">
+=======
+	<section id="buy-tickets" class="valign-wrapper scrollspy">
+>>>>>>> 05370a0495a49423aa0c83e56617e5d87074c92b
 		<div class="container">
 
 			<h2 class="custom-head-left">Get your ticket</h2>
@@ -523,8 +530,14 @@
 		</footer>
 	</section>
 
+	<!--Import jQuery-->
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<!-- Import Materialize -->
 	<script type="text/javascript" src="js/materialize.min.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>
+	<!-- Import file containing all required libraries -->
+	<script type="text/javascript" src="js/libraries.js"></script>
+	<!-- Import Custom script -->
+	<script type="text/javascript" src="js/scripts.js"></script>
+
 </body>
 </html>
