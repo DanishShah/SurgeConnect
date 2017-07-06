@@ -116,10 +116,11 @@ nav.sticky{
 nav .brand-logo{
 	height: 100%;
 	margin-left: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 nav a img.nav-logo{
-	
 	max-height: 100%;
 	width: auto;
 }
@@ -129,19 +130,25 @@ nav a.brand-logo{
 }
 
 nav a p.nav-title{
-	font-family: "Raleway",sans-serif;
-	font-weight: 500;
+	font-family: "Oswald",sans-serif;
+	/*font-weight: 500;*/
 	position: relative;
 	top: -25%;
-	color: #ff1744;
+	left: 10px;
+	color: #fafafa;
+	letter-spacing: 0.1em;
 	padding: 0;
 	margin: 0;
 }
 
+nav a p.nav-title span{
+	color: #ff1744;
+}
+
 nav ul li a span{
 	font-family: 'Raleway', sans-serif;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 nav ul li a {
@@ -212,6 +219,24 @@ nav ul li a.active{
 	display: flex;
 	align-items: center;
 	/*rgb(1,87,155)*/
+}
+
+.countdown-title{
+	color: #fafafa;
+	font-family: "Raleway", sans-serif;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: 600;
+	width: 100%;
+	letter-spacing: 0.3em;
+}
+
+.countdown-amount{
+	color: #fafafa;
+	font-family: "Oswald", sans-serif;
+	font-size: 7em;
+	text-transform: uppercase;
+	width: 100%;
 }
 
 /* Short Desc Card */
@@ -348,4 +373,19 @@ nav ul li a.active{
 .social-icon:hover{
 	background-color: #ff1744;
 	transition-duration: 0.3s;
+}
+
+
+/* Media Queries */
+
+@media screen and (max-width: 1300px){
+	nav .nav-title{
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1000px){
+	nav .brand-logo{
+		margin-left: 0;
+	}
 }
