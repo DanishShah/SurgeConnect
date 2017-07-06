@@ -1,9 +1,5 @@
 jQuery(document).ready(function($) {
 	
-	$('.carousel').carousel();
-	$('.carousel.carousel-slider').carousel({fullWidth: true});
-
-
 	// Change state of nav bar
 	$(window).scroll(function(event) {
 		if ($(window).scrollTop() > 50 ){
@@ -21,18 +17,22 @@ jQuery(document).ready(function($) {
     $(".scrollspy").scrollSpy();
 
 
-
-
-
-
-	// var aspectRatio = 1.78;
-
- //    var video = $('#player');
- //    var videoHeight = video.outerHeight();
- //    var newWidth = videoHeight*aspectRatio;
- //    var halfNewWidth = newWidth/2;
-
- //    video.css({"width":newWidth+"px","left":"50%","margin-left":"-"+halfNewWidth+"px"});
+    // Owl carousel inititalization for speakers list
+    $(".speaker_list").owlCarousel({
+		loop:false,
+		margin:10,
+		responsive:{
+			0:{
+				items:1
+			},
+			600:{
+				items:2
+			},
+			1200:{
+				items:3
+			}
+		}
+	})
 
 
 
