@@ -21,6 +21,7 @@ h1, h2, h3, h4{
 h5, p{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 500;
+	color: #fafafa;
 }
 
 .responsive-img{
@@ -311,8 +312,8 @@ nav ul li a.active{
 
 #venue{
 	height: 70vh;
-	background-color: #1c262f; 
-	background-image: url('../assets/venue.jpg'); 
+	background-color: #121212; 
+	background-image: url('../assets/venue_1.jpg'); 
 	background-position: right;
 	background-repeat: no-repeat;
 	max-height: 800px;
@@ -323,7 +324,7 @@ nav ul li a.active{
 
 #buy-tickets{
 	min-height: 70vh;
-	background-color: #121212;
+	background-color: #212121;
 	padding: 10vh 0;
 }
 
@@ -332,7 +333,7 @@ nav ul li a.active{
 }
 
 .ticket-container .card{
-	background-color: #212121;
+	background-color: #121212;
 	color: #fafafa;
 	transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
 	cursor: pointer;
@@ -350,7 +351,7 @@ nav ul li a.active{
 }
 
 .ticket-container .collection .collection-item{
-	background-color: #212121;
+	background-color: #121212;
 	border: none;
 }
 
@@ -360,8 +361,12 @@ nav ul li a.active{
 
 /* Footer */
 
-.page-footer .footer-copyright{
+.page-footer{
 	background-color: #121212;
+}
+
+.page-footer .footer-copyright{
+	background-color: #000;
 }
 
 .social-icon{
