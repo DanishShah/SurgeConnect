@@ -19,7 +19,7 @@
 
 
 </head>
-<body>
+<body onload="countDownTimer()">
 
 	<section id="home" class="scrollspy">
 
@@ -65,22 +65,23 @@
 						<div class="col s12 m12 l12">
 							<h1>Surge Connect</h1>
 							<hr class="custom-seperator">
+							<br>
 							<div class="row countdown-container">
 								<span class="col s6 m3 l3 center countdown-section">
 									<div class="countdown-title">Days</div>
-									<div class="countdown-amount">00</div>
+									<div id="day" class="countdown-amount"></div>
 								</span>
 								<span class="col s6 m3 l3 center countdown-section">
 									<div class="countdown-title">Hours</div>
-									<div class="countdown-amount">00</div>
+									<div id="hour" class="countdown-amount"></div>
 								</span>
 								<span class="col s6 m3 l3 center countdown-section">
 									<div class="countdown-title">Minutes</div>
-									<div class="countdown-amount">00</div>
+									<div id="min" class="countdown-amount"></div>
 								</span>
 								<span class="col s6 m3 l3 center countdown-section">
 									<div class="countdown-title">Seconds</div>
-									<div class="countdown-amount">00</div>
+									<div id="sec" class="countdown-amount"></div>
 								</span>
 							</div>
 						</div>
