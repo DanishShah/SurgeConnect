@@ -221,6 +221,11 @@ nav ul li a.active{
 	/*rgb(1,87,155)*/
 }
 
+.surge-logo{
+	width: 100px;
+	height: 100px;
+}
+
 .countdown-title{
 	color: #fafafa;
 	font-family: "Raleway", sans-serif;

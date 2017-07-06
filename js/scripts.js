@@ -83,7 +83,7 @@ function countDownTimer(){
 	}, 1000);
 
 	// console.log(event_date + "\n" + curr_date + "\n" + diff);
-	console.log(day + "\n" + hour + "\n" + min + "\n" + sec);
+	// console.log(day + "\n" + hour + "\n" + min + "\n" + sec);
 }
 
 function onYouTubePlayerAPIReady() {
