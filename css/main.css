@@ -4,6 +4,7 @@
 body{
 	margin: 0;
 	padding: 0;
+	background-color: #202020;
 }
 
 .bold{
@@ -13,13 +14,17 @@ body{
 h1, h2, h3, h4{
 	font-family: "Raleway",sans-serif;
 	font-weight: 900;	
-	color: #616161;
+	color: #fafafa;
 	text-transform: uppercase;
 }
 
 h5, p{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 500;
+}
+
+.responsive-img{
+	margin-bottom: -5px;
 }
 
 @keyframes scale{
@@ -33,8 +38,8 @@ h5, p{
 
 .custom-head-left{
 	border-left: 4px solid;
-	color: #616161;
-	border-color: #18FFFF;
+	color: #fafafa;
+	border-color: #ff1744;
 	padding-left: 16px;
 	/*animation-name: scale;
 	animation-duration: .5s;
@@ -45,8 +50,8 @@ h5, p{
 
 .custom-head-right{
 	border-right: 4px solid;
-	color: #616161;
-	border-color: #18FFFF;
+	color: #fafafa;
+	border-color: #ff1744;
 	padding-right: 16px;
 	/*animation-name: scale;
 	animation-duration: .5s;
@@ -60,18 +65,31 @@ button{
 	font-weight: 500;
 	background: none;
 	border-radius: 100px;
-	border: 2px #18FFFF solid;
+	border: 2px #ff1744 solid;
 	padding: 10px;
 	padding-right: 20px;
 	padding-left: 20px;
-	color: #18FFFF;
+	color: #ff1744;
 	margin-bottom: 10px;
 }
 
 button:hover{
-	background-color: #18FFFF;
+	background-color: #ff1744;
 	color: #fff;
 	transition-duration: .2s;
+}
+
+.custom-seperator{
+	height: 4px;
+	width: 50px;
+	background-color: rgb(255,23,68);
+	border: none;
+	border-radius: 2px;
+}
+
+
+.no-padding{
+	padding: 0 !important;
 }
 
 /*Global | End*/
@@ -90,7 +108,7 @@ nav {
 nav.sticky{
 	line-height: 60px;
 	height: 60px;
-	background: #fafafa;
+	background: #121212;
 	box-shadow:  0 2px 6px rgba(0,21,64,.14), 0 10px 20px rgba(0,21,64,.05)
 }
 
@@ -114,7 +132,7 @@ nav a p.nav-title{
 	font-weight: 500;
 	position: relative;
 	top: -25%;
-	color: #18FFFF;
+	color: #ff1744;
 	padding: 0;
 	margin: 0;
 }
@@ -125,23 +143,22 @@ nav ul li a span{
 	padding-right: 15px;
 }
 
+nav ul li a {
+	color: #fafafa;
+}
+
 nav ul li a:hover{
 	background: none;
-	color: #18FFFF;
+	color: #ff1744;
 }
 
 nav ul li a span:hover{
-	color: #18FFFF;
+	color: #ff1744;
 }
 
-nav ul li a.active span{
-	padding-left: 25px;
-	padding-right: 25px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	border: 2px #18FFFF solid;
-	border-radius: 50px;
-	color: #18FFFF;
+nav ul li a.active{
+	background: none;
+	color: #ff1744;
 }
 
 /*Nav | End*/
@@ -152,22 +169,48 @@ nav ul li a.active span{
 #home{
 	width: 100%;
 	height: 100vh;
-	background-image: url("../assets/landing_img.jpg");
+	/*background-image: url("../assets/landing_img.jpg");*/
 	background-size: cover;	
 }
 
-.home-overlay{
+
+
+.home-div{
 	position: absolute;
 	top: 0;
 	left: 0;
-	height: 100%;
-	width: 100%;
-	background: linear-gradient(rgba(52, 148, 230, 0.5), rgba(24, 255, 255, 0.5));
+	right: 0;
+	bottom: 0;
 }
 
-.home-div{
-	height: 100vh;
-	position: relative;
+
+.player_wrapper {
+	position: absolute;
+	top: 0;
+	height:100%;
+	width:100%;
+	overflow:hidden;
+}
+
+.player_wrapper iframe {
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:0;
+    bottom:0;
+}
+
+.player_wrapper .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 1;
+	background-color: rgba(20,20,20, 0.3);
+	display: flex;
+	align-items: center;
+	/*rgb(1,87,155)*/
 }
 
 /* Short Desc Card */
@@ -178,7 +221,7 @@ nav ul li a.active span{
 }
 
 .material-icons{
-	color: #18FFFF;
+	color: #ff1744;
 }
 
 /* About */
@@ -192,7 +235,8 @@ nav ul li a.active span{
 }
 
 .about-sub{
-	max-width: 1000px;
+	color: #fafafa;
+	padding: 20px;
 }
 
 /* Stages */
@@ -216,6 +260,13 @@ nav ul li a.active span{
 	height: 100%;
 	background: linear-gradient(rgba(52, 148, 230, 0.5), rgba(24, 255, 255, 0.5));
 }
+
+.stage-row{
+	background-color: #212121;
+	padding: 0;
+	margin-bottom: 0;
+}
+
 
 .stages-sub{
 	margin-right: 10%;
