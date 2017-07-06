@@ -22,7 +22,7 @@
 
 
 </head>
-<body>
+<body onload="countDownTimer()">
 
 	<!-- Home section -->
 
@@ -31,7 +31,7 @@
 		<div class="navbar-fixed">
 			<nav>
 				<div class="nav-wrapper">
-					<a href="#" class="brand-logo grey-text valign-wrapper"><img class="nav-logo" src="assets/logo.png"> <p class="nav-title">Surge <span>Connect</span></p></a>
+					<a href="#" class="brand-logo grey-text valign-wrapper"><img class="nav-logo" src="assets/surge_logo_white_alt.png"> <p class="nav-title">Surge <span>Connect</span></p></a>
 					<ul id="nav-mobile" class="right hide-on-med-and-down">
 						<li><a href="#home" class="nav-element"><span class="active">HOME</span></a></li>
 						<li><a href="#about" class="nav-element"><span>ABOUT</span></a></li>
@@ -65,25 +65,29 @@
 				<div class="home-div valign-wrapper">
 
 					<div class="row container center">
-						<div class="col s12 m12 l12">
-							<h1>Surge Connect</h1>
+						<div class="col s12 m12 l12">			
+								
+							<img class="responsive-img surge-logo" src="assets/surge_logo_white_alt.png">
+							<h1>Surge Connect</h1>								
+						
 							<hr class="custom-seperator">
+							<br>
 							<div class="row countdown-container">
 								<span class="col s6 m3 l3 center countdown-section">
 									<div class="countdown-title">Days</div>
-									<div class="countdown-amount">00</div>
+									<div id="day" class="countdown-amount"></div>
 								</span>
 								<span class="col s6 m3 l3 center countdown-section">
 									<div class="countdown-title">Hours</div>
-									<div class="countdown-amount">00</div>
+									<div id="hour" class="countdown-amount"></div>
 								</span>
 								<span class="col s6 m3 l3 center countdown-section">
 									<div class="countdown-title">Minutes</div>
-									<div class="countdown-amount">00</div>
+									<div id="min" class="countdown-amount"></div>
 								</span>
 								<span class="col s6 m3 l3 center countdown-section">
 									<div class="countdown-title">Seconds</div>
-									<div class="countdown-amount">00</div>
+									<div id="sec" class="countdown-amount"></div>
 								</span>
 							</div>
 						</div>
@@ -142,7 +146,8 @@
 				<div class="row stage-row">
 					<div class="col s12 m12 l12 valign-wrapper no-padding">
 						<div class="card-image col s6 m6 l6 no-padding">
-							<img src="assets/landing_img.jpg" class="responsive-img">
+							<div class="stage-mask"></div>
+							<img src="assets/landing_img.jpg" class="responsive-img stages-img">
 						</div>
 						<div class="col s6 m6 l6 center">
 							<h4>Techtalk/Keynotes</h4>
