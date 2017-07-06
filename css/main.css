@@ -312,8 +312,87 @@ nav ul li a.active{
 
 /* Speakers */
 
+
 #speakers{
-	height: 70vh;
+	min-height: 100vh;
+	z-index: 20;
+	padding-top: 30px;
+}
+
+.container_speaker{
+	max-width: 80%;
+}
+
+.speaker_list{
+	margin-top: 50px;
+}
+
+.speaker_card.card{
+	margin: none;
+}
+
+.speaker_card{
+	height: 100%;
+}
+
+.owl-stage{
+	display: flex;
+	height: 550px;
+}
+
+
+.card .card-image img{
+	height: 30%;
+	border-radius: 50%;	
+}
+
+.card .card-image img.speaker_img{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	box-shadow: 0px 17px 20px 19px rgba(0, 255, 255, 0.08);
+}
+
+/*.speaker_card .card-image img,.speaker_card .card-image a{
+	transform: skewY(12deg);
+	transform-origin: 0;
+}*/
+
+.card img.social_icon{
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	padding: 8px;
+	margin: 5px;
+}
+
+#linkedin{
+	background-color: #1976d2;
+}
+
+#facebook{
+	background-color: #3f51b5;
+}
+
+#instagram{
+	background: linear-gradient(rgb(255,196,0), rgb(245, 0, 87));
+}
+
+.speaker_card .card-action{
+	position: absolute;
+	bottom: 5px;
+	left: 0;
+	right: 0;
+}
+
+.speaker_card .card-action a:not(.btn):not(.btn-large):not(.btn-large):not(.btn-floating){
+	color: purple;
+}
+
+.short_speaker_deescription{
+	font-size: 1.1em;
 }
 
 /* Venue */
