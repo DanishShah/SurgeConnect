@@ -293,6 +293,10 @@ nav ul li a.active{
 	background: linear-gradient(rgba(52, 148, 230, 0.5), rgba(24, 255, 255, 0.5));
 }
 
+.stages-img::after{
+	background-color: rgba(255, 28, 63, 0.2);
+}
+
 .stage-row{
 	background-color: #212121;
 	padding: 0;
