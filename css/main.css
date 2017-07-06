@@ -63,20 +63,20 @@ h5, p{
 button{
 	font-family: 'Raleway', sans-serif;
 	font-weight: 500;
-	background-color: #ff1744;
-	border: 2px #ff1744 solid;
+	background-color: #fafafa;
+	border: 2px #fafafa solid;
 	padding: 10px;
 	padding-right: 20px;
 	padding-left: 20px;
-	color: #fafafa;
+	color: #212121;
 	margin-bottom: 10px;
 	font-weight: 700;
 }
 
 button:hover{
-	background-color: #fafafa;
-	color: #ff1744;
-	border-color: #fafafa;
+	background-color: #ff1744;
+	color: #fafafa;
+	border-color: #ff1744;
 	transition-duration: .2s;
 }
 
@@ -243,7 +243,8 @@ nav ul li a.active{
 /* Stages */
 
 #stages{
-	background-image: url("../assets/stages_bg.png");
+	/*background-image: url("../assets/stages_bg.png");*/
+	background-color: #121212;
 }
 
 .stages-divider{
@@ -314,7 +315,7 @@ nav ul li a.active{
 
 .ticket-container .card:hover{
 	transform: scale(1.03);
-	box-shadow: 0 0px 20px rgba(90,90,90,0.30);
+	box-shadow: 0 0px 20px #ff1744;
 }
 
 .ticket-container .collection{
@@ -334,13 +335,17 @@ nav ul li a.active{
 
 /* Footer */
 
+.page-footer .footer-copyright{
+	background-color: #121212;
+}
+
 .social-icon{
-	background-color: #E0E0E0;
+	background-color: #424242;
 	border-radius: 50%;
 	padding: 10px;
 }
 
 .social-icon:hover{
-	background-color: #BDBDBD;
+	background-color: #ff1744;
 	transition-duration: 0.3s;
 }
