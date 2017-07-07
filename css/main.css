@@ -416,6 +416,41 @@ nav ul li a.active{
 }
 
 
+/* Schedule */
+
+#schedule{
+	background-color: #121212;
+	min-height: 70vh;
+}
+
+#day1{
+	border: none;
+}
+
+.tabs{
+	background-color: #121212;
+}
+
+.tabs .indicator{
+	background-color: #ff1744;
+}
+
+.collapsible{
+	border: none;
+}
+
+.collapsible-header{
+	border: none;
+	background-color: #121212;
+	border-bottom: 2px #ff1744 solid;
+}
+
+.collapsible-body{
+	border: none;
+	background-color: #121212;
+	border-bottom: 2px #ff1744 solid;
+}
+
 /* Tickets */
 
 #buy-tickets{
