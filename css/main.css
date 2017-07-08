@@ -281,6 +281,14 @@ nav ul li a.active{
 	
 }
 
+#about{
+	background-color: #121212;
+}
+
+#about .row {
+	margin-bottom: 0;
+}
+
 .sub{
 	color: #9E9E9E;
 }
