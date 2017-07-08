@@ -104,13 +104,32 @@ button:hover{
 	border-radius: 2px;	
 }
 
-.custom-seperator.amim{
+.anim{
+	height: 4px;
+	width: 50px;
+	background-color: rgb(255,23,68);
+	border: none;
+	border-radius: 2px;
 	animation: scale 1s infinite;
 }
 
 
 .no-padding{
 	padding: 0 !important;
+}
+
+.custom-para-div{
+	width: 70%;
+	padding: 5px;
+	background-color: #424242	;
+	border-radius: 3px;
+	box-shadow: 0 2px 2px rgba(0,0,0,0.4);
+	display: none;
+	transform: translateY(-5px);
+	transition-duration: .2s;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
 /*Global | End*/
@@ -518,6 +537,10 @@ nav ul li a.active{
 
 .companies-logo-img{
 	height: 70px;
+}
+
+li:hover .custom-para-div{
+	display: block;
 }
 
 /* Tickets */
