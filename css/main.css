@@ -504,6 +504,10 @@ nav ul li a.active{
 
 /* Companies */
 
+marquee ul{
+	display: flex;
+}
+
 .companies-logo{
 	float: left;
 	padding-left: 20px;
@@ -520,12 +524,16 @@ nav ul li a.active{
 	height: 70px;
 }
 
-<<<<<<< HEAD
+
 li:hover .custom-para-div{
 	display: block;
 }
-=======
->>>>>>> ccea82de1bde3a5c73c3293b5b704e59534361da
+
+/* Colleges */
+
+#colleges{
+	background-color: #121212;
+}
 
 /* Tickets */
 
