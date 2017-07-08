@@ -10,7 +10,9 @@ jQuery(document).ready(function($) {
 	});
 
 	// Side nav inititalization
-	$(".button-collapse").sideNav();
+	$(".button-collapse").sideNav({
+		closeOnClick: true,
+	});
 
 
     // Initializing Materialize Scroll-spy
