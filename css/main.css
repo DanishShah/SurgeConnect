@@ -93,7 +93,7 @@ button:hover{
 	background-color: rgb(255,23,68);
 	border: none;
 	border-radius: 2px;
-	animation: scale 1s infinite;
+	animation: scale 2s infinite;
 }
 
 
@@ -506,12 +506,13 @@ nav ul li a.active{
 	background-color: #121212;
 	border-bottom: 2px #ff1744 solid;
 	padding: 0px 13px 20px;	
-	height: 100px;
+	min-height: 100px;
 }
 
 .collapsible-body-venue{
 	background-color: #212121;
 	height: 100%;
+	margin-bottom: 10px;
 }
 
 /* Companies */
