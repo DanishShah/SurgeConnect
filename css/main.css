@@ -32,25 +32,6 @@ h5, p{
 	margin-bottom: -5px;
 }
 
-@keyframes scale{
-	0%{
-		transform: scaleX(1);
-	}
-	25%{
-		transform: scaleX(0.3);
-	}
-	50%{
-		transform: rotate(180deg) scaleX(0.3);
-
-	}
-	75%{
-		transform: rotate(180deg) scaleX(0.3);		
-	}
-
-	100%{
-		transform: rotate(180deg) scaleX(1);
-	}
-}
 
 .custom-head-left{
 	border-left: 4px solid;
@@ -539,9 +520,12 @@ nav ul li a.active{
 	height: 70px;
 }
 
+<<<<<<< HEAD
 li:hover .custom-para-div{
 	display: block;
 }
+=======
+>>>>>>> ccea82de1bde3a5c73c3293b5b704e59534361da
 
 /* Tickets */
 
@@ -635,5 +619,28 @@ li:hover .custom-para-div{
 	.speaker_card:hover{
 		box-shadow: none;
 		transform: scale(1);
+	}
+}
+
+/*Animations*/
+
+
+@keyframes scale{
+	0%{
+		transform: scaleX(1);
+	}
+	25%{
+		transform: scaleX(0.3);
+	}
+	50%{
+		transform: rotate(180deg) scaleX(0.3);
+
+	}
+	75%{
+		transform: rotate(180deg) scaleX(0.3);		
+	}
+
+	100%{
+		transform: rotate(180deg) scaleX(1);
 	}
 }
