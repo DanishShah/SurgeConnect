@@ -59,6 +59,45 @@ jQuery(document).ready(function($) {
 	resizeVideo();
     $(window).on('resize', resizeVideo());
 
+
+	// Logic for scrollreveal animations
+	window.sr = ScrollReveal();
+
+	slide_up = {
+		distance: '20px',
+		duration: 800,
+		easing: "cubic-bezier(0.4, 0.0, 0.2, 1)",
+		scale: 1,
+	};
+
+	slide_down = {
+		distance: '-20px',
+		duration: 800,
+		easing: "cubic-bezier(0.4, 0.0, 0.2, 1)",
+		scale: 1,
+	};
+
+	slide_left = {
+		origin: 'right',
+		distance: '20px',
+		duration: 800,
+		easing: "cubic-bezier(0.4, 0.0, 0.2, 1)",
+		scale: 1,
+	};
+
+	slide_left_collective = {
+		origin: 'right',
+		distance: '50px',
+		duration: 800,
+		easing: "cubic-bezier(0.4, 0.0, 0.2, 1)",
+		scale: 1,
+	};
+
+	sr.reveal('.sr-slide-up', slide_up);
+	sr.reveal('.sr-slide-down', slide_down);
+	sr.reveal('.sr-tickets', slide_left_collective, 100);
+	sr.reveal('.sr-speakers', slide_left_collective, 100);
+
 });
 
 // function countDownTimer(){
