@@ -87,7 +87,7 @@ button:hover{
 
 .anim{
 	height: 4px;
-	width: 50px;
+	width: 100px;
 	background-color: rgb(255,23,68);
 	border: none;
 	border-radius: 2px;
@@ -187,6 +187,11 @@ nav ul li a span:hover{
 nav ul li a.active{
 	background: none;
 	color: #ff1744;
+}
+
+#nav-mobile ul li a.active{
+	background: none;
+	color: #ff1744;	
 }
 
 /*Nav | End*/
@@ -480,26 +485,35 @@ nav ul li a.active{
 
 .collapsible{
 	border: none;
+	margin-top: 20px;
 }
 
 .collapsible-header{
 	border: none;
 	background-color: #121212;
-	border-bottom: 2px #ff1744 solid;
 }
 
 .collapsible-header-time{
 	background-color: #ff1744;
+	border-bottom: 2px #ff1744 solid;
+}
+
+.collapsible-header-desc{
+	border-bottom: 2px #ff1744 solid;
+	margin-bottom: -2px;
 }
 
 .collapsible-body{
 	border: none;
 	background-color: #121212;
 	border-bottom: 2px #ff1744 solid;
+	padding: 0px 13px 20px;	
+	height: 100px;
 }
 
 .collapsible-body-venue{
 	background-color: #212121;
+	height: 100%;
 }
 
 /* Companies */
