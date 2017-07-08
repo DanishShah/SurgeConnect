@@ -191,8 +191,19 @@ nav ul li a.active{
 	color: #ff1744;
 }
 
-#nav-mobile ul li a.active{
-	background: none;
+.side-nav-header{
+	height: 150px;
+	padding: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+
+}
+
+.side-nav li a span{
+	color: #fafafa;
+}
+
+.side-nav li a.active{
 	color: #ff1744;	
 }
 
@@ -506,12 +517,10 @@ nav ul li a.active{
 	background-color: #121212;
 	border-bottom: 2px #ff1744 solid;
 	padding: 0px 13px 20px;	
-	min-height: 100px;
 }
 
 .collapsible-body-venue{
 	background-color: #212121;
-	height: 100%;
 	margin-bottom: 10px;
 }
 

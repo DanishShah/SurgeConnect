@@ -100,32 +100,32 @@ jQuery(document).ready(function($) {
 
 });
 
-// function countDownTimer(){
+function countDownTimer(){
 
-// 	var event_date = new Date(2018, 01, 23, 9, 00, 00);
-// 	var curr_date = new Date();
-// 	var t1 = event_date.getTime();
-// 	var t2 = curr_date.getTime();
-// 	var day = Math.floor((t1-t2)/(24*60*60*1000));
-// 	t1 = t1 - day*24*60*60*1000;
-// 	var hour = Math.floor((t1-t2)/(60*60*1000));
-// 	t1 = t1 - hour*60*60*1000;
-// 	var min = Math.floor((t1-t2)/(60*1000));
-// 	t1 = t1 - min*60*1000;
-// 	var sec = Math.floor((t1-t2)/(1000));
+	var event_date = new Date(2018, 01, 23, 9, 00, 00);
+	var curr_date = new Date();
+	var t1 = event_date.getTime();
+	var t2 = curr_date.getTime();
+	var day = Math.floor((t1-t2)/(24*60*60*1000));
+	t1 = t1 - day*24*60*60*1000;
+	var hour = Math.floor((t1-t2)/(60*60*1000));
+	t1 = t1 - hour*60*60*1000;
+	var min = Math.floor((t1-t2)/(60*1000));
+	t1 = t1 - min*60*1000;
+	var sec = Math.floor((t1-t2)/(1000));
 
-// 	document.getElementById('day').innerHTML = day;
-// 	document.getElementById('hour').innerHTML = hour;
-// 	document.getElementById('min').innerHTML = min;
-// 	document.getElementById('sec').innerHTML = sec;
+	document.getElementById('day').innerHTML = day;
+	document.getElementById('hour').innerHTML = hour;
+	document.getElementById('min').innerHTML = min;
+	document.getElementById('sec').innerHTML = sec;
 
-// 	setInterval(function(){
-// 		countDownTimer();	
-// 	}, 1000);
+	setInterval(function(){
+		countDownTimer();	
+	}, 1000);
 
-// 	// console.log(event_date + "\n" + curr_date + "\n" + diff);
-// 	// console.log(day + "\n" + hour + "\n" + min + "\n" + sec);
-// }
+	// console.log(event_date + "\n" + curr_date + "\n" + diff);
+	// console.log(day + "\n" + hour + "\n" + min + "\n" + sec);
+}
 
 function onYouTubePlayerAPIReady() {
 	player = new YT.Player('player', {
