@@ -105,6 +105,7 @@ nav {
 	line-height: 80px;
 	height: 80px;
 	transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
+	overflow: hidden;
 }
 
 nav.sticky{
@@ -553,6 +554,15 @@ nav ul li a.active{
 }
 
 @media screen and (max-width: 600px){
+
+	.landing-title{
+		font-size: 3em;
+	}
+
+	.countdown-amount{
+		font-size: 5em;
+	}
+
 	.owl-stage{
 		padding: 20px 0;
 	}
