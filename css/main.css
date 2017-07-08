@@ -1,6 +1,10 @@
 
 /*Global | Start*/
 
+html{
+	color: #fafafa;
+}
+
 body{
 	margin: 0;
 	padding: 0;
@@ -29,11 +33,22 @@ h5, p{
 }
 
 @keyframes scale{
-	from{
-		border: 4px #1;
+	0%{
+		transform: scaleX(1);
 	}
-	to{
-		transform: scaleY(1);
+	25%{
+		transform: scaleX(0.3);
+	}
+	50%{
+		transform: rotate(180deg) scaleX(0.3);
+
+	}
+	75%{
+		transform: rotate(180deg) scaleX(0.3);		
+	}
+
+	100%{
+		transform: rotate(180deg) scaleX(1);
 	}
 }
 
@@ -86,7 +101,11 @@ button:hover{
 	width: 50px;
 	background-color: rgb(255,23,68);
 	border: none;
-	border-radius: 2px;
+	border-radius: 2px;	
+}
+
+.custom-seperator.amim{
+	animation: scale 1s infinite;
 }
 
 
@@ -454,10 +473,18 @@ nav ul li a.active{
 	border-bottom: 2px #ff1744 solid;
 }
 
+.collapsible-header-time{
+	background-color: #ff1744;
+}
+
 .collapsible-body{
 	border: none;
 	background-color: #121212;
 	border-bottom: 2px #ff1744 solid;
+}
+
+.collapsible-body-venue{
+	background-color: #212121;
 }
 
 /* Companies */
