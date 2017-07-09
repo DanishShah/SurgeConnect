@@ -320,6 +320,7 @@ nav ul li a.active{
 .about-sub{
 	color: #fafafa;
 	padding: 20px;
+	text-transform: none;
 }
 
 /* Stages */
@@ -655,6 +656,10 @@ li:hover .custom-para-div{
 	.speaker_card:hover{
 		box-shadow: none;
 		transform: scale(1);
+	}
+
+	#venue{
+		background-position: center;
 	}
 }
 

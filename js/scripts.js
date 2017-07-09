@@ -16,7 +16,9 @@ jQuery(document).ready(function($) {
 
 
     // Initializing Materialize Scroll-spy
-    $(".scrollspy").scrollSpy();
+    $(".scrollspy").scrollSpy({
+    	scrollOffset: 50
+    });
 
 
     // Owl carousel inititalization for speakers list
