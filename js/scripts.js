@@ -38,7 +38,7 @@ jQuery(document).ready(function($) {
 		}
 	})
 	
-	
+
 
 
 
@@ -101,6 +101,7 @@ jQuery(document).ready(function($) {
 	sr.reveal('.sr-slide-down', slide_down);
 	sr.reveal('.sr-tickets', slide_left_collective, 100);
 	sr.reveal('.sr-speakers', slide_left_collective, 100);
+	sr.reveal('.sr-footer-icon', slide_up, 100);
 
 
 	// Updating countdown every second
