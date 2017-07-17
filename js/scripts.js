@@ -37,6 +37,8 @@ jQuery(document).ready(function($) {
 			}
 		}
 	})
+	
+
 
 
 
@@ -99,6 +101,11 @@ jQuery(document).ready(function($) {
 	sr.reveal('.sr-slide-down', slide_down);
 	sr.reveal('.sr-tickets', slide_left_collective, 100);
 	sr.reveal('.sr-speakers', slide_left_collective, 100);
+	sr.reveal('.sr-footer-icon', slide_up, 100);
+
+
+	// Updating countdown every second
+	setInterval(countDownTimer, 1000);
 
 });
 
@@ -120,10 +127,6 @@ function countDownTimer(){
 	document.getElementById('hour').innerHTML = hour;
 	document.getElementById('min').innerHTML = min;
 	document.getElementById('sec').innerHTML = sec;
-
-	setInterval(function(){
-		countDownTimer();	
-	}, 1000);
 
 	// console.log(event_date + "\n" + curr_date + "\n" + diff);
 	// console.log(day + "\n" + hour + "\n" + min + "\n" + sec);
