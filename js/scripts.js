@@ -4,7 +4,7 @@ jQuery(document).ready(function($) {
 	$(window).scroll(function(event) {
 		if ($(window).scrollTop() > 50 ){
             $("nav").addClass('sticky');
-            $(".nav-logo").attr("src", "./assets/surge_logo_black.png")
+            $(".nav-logo").attr("src", ".as/sets/surge_logo_black.png")
         } else {
         	$("nav").removeClass('sticky');
         	$(".nav-logo").attr("src", "./assets/surge_logo_white_alt.png")
