@@ -243,7 +243,8 @@ nav.sticky a p.nav-title span{
 }
 
 nav ul li a span{
-	font-family: 'Lato', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
 	padding-left: 10px;
 	padding-right: 10px;
 }
@@ -282,11 +283,12 @@ nav.sticky ul li a.active{
 }
 
 .side-nav li a span{
-	color: var(--grey-dark);
+	font-family: 'Montserrat', sans-serif;
+	color: var(--grey-200);
 }
 
-.side-nav li a.active{
-	color: var(--red-accent);	
+.side-nav li a span.active{
+	color: var(--grey-dark);	
 }
 
 /*Nav | End*/
