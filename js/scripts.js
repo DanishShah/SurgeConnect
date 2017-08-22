@@ -39,10 +39,6 @@ jQuery(document).ready(function($) {
 			}
 		}
 	})
-	
-
-
-
 
 	function resizeVideo() {
 
