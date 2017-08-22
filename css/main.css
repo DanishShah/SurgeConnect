@@ -516,6 +516,15 @@ nav.sticky ul li a.active{
 	padding-top: 100px;
 }
 
+.card .card-title{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+
+.card .card-desc{
+	font-family: 'Lato', sans-serif;
+}
+
 .card .speaker_img{
 	max-height: 200px;
 	max-width: 200px;	
