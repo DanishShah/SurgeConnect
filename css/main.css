@@ -50,6 +50,30 @@ h1, h2, h3, h4, h5{
 	text-transform: uppercase;
 }
 
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 23px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 15px;
+}
+
 p{
 	font-family: 'Lato', sans-serif;
 	font-weight: 500;
@@ -289,7 +313,7 @@ nav.sticky ul li a.active{
 .player_wrapper {
 	position: absolute;
 	top: 0;
-	height:100%;
+	height:100vh;
 	width:100%;
 	overflow:hidden;
 }
@@ -321,13 +345,14 @@ nav.sticky ul li a.active{
 }
 
 .landing-title{
+	margin-top: 60px;
 	color: var(--white-100);
 }
 .countdown-title{
 	color: var(--white-100);
 	font-family: "Raleway", sans-serif;
-	font-size: 1.5em;
-	text-transform: uppercase;
+/*	font-size: 1.5em;
+*/	text-transform: uppercase;
 	font-weight: 600;
 	width: 100%;
 	letter-spacing: 0.3em;
@@ -336,7 +361,7 @@ nav.sticky ul li a.active{
 .countdown-amount{
 	color: var(--white-100);
 	font-family: "Montserrat", sans-serif;
-	font-size: 7em;
+	/*font-size: 7em;*/
 	text-transform: uppercase;
 	width: 100%;
 }
@@ -359,6 +384,7 @@ nav.sticky ul li a.active{
 }
 
 #about{
+	min-height: 50vh;
 	background-color: var(--white);
 }
 
@@ -408,11 +434,29 @@ nav.sticky ul li a.active{
 	margin-bottom: 0;
 }
 
+.stages-text{
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
 
 .stages-sub{
 	margin-right: 10%;
 	margin-left: 10%;
 	margin-top: 10px;
+}
+
+.techtalk-attr{
+	width: 40px;
+	height: 40px;
+	background-color: var(--grey-200);
+	border-radius: 50%;
+	padding: 10px;
+	margin: auto;
+	transition-duration: 0.3s;
+}
+
+.techtalk-attr:hover{
+	background-color: var(--grey-300);
 }
 
 /* Speakers */
@@ -466,9 +510,13 @@ nav.sticky ul li a.active{
 	transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
 }
 
+.card .card-content{
+	padding-top: 100px;
+}
+
 .card .speaker_img{
-	height: 275px;
-	width: 275px;	
+	max-height: 200px;
+	max-width: 200px;	
 	margin: auto;
 	border-radius: 50%;
 	box-shadow: 0 10px 30px 0px rgba(0,0,0, 0.3);
@@ -503,8 +551,8 @@ nav.sticky ul li a.active{
 	transition: all 300ms cubic-bezier(0.4, 0.0, 0.2, 1);
 	color: var(--grey-dark);
 	font-family: "Montserrat", sans-serif;
-	font-size: 1.5em;
-}
+/*	font-size: 1.5em;
+*/}
 
 .speaker_card .card-action:hover{
 	/*background-color: rgba(255, 23, 68, 0.5);*/
@@ -601,7 +649,7 @@ nav.sticky ul li a.active{
 
 .collapsible-body-venue{
 	background-color: var(--white);
-	border-right: 2px solid var(--red-accent);
+	border-left: 2px solid var(--red-accent);
 	margin-bottom: 10px;
 }
 
@@ -612,7 +660,7 @@ marquee ul{
 }
 
 .logo-container{
-	height: 200px;
+	height: 160px;
 	position: relative;
 }
 
@@ -680,8 +728,8 @@ marquee ul{
 }
 
 .ticket-heading{
-	font-size: 2.2em;
-}
+/*	font-size: 2.2em;
+*/}
 
 /* Footer */
 
@@ -723,11 +771,11 @@ marquee ul{
 @media screen and (max-width: 600px){
 
 	.landing-title{
-		font-size: 3em;
+		/*font-size: 3em;*/
 	}
 
 	.countdown-amount{
-		font-size: 5em;
+		/*font-size: 5em;*/
 	}
 
 	.owl-stage{
