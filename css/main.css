@@ -612,6 +612,7 @@ nav.sticky ul li a.active{
 
 .tabs{
 	background-color: var(--white);
+	overflow: hidden;
 }
 
 .tabs .tab a:hover, .tabs .tab a.active{
